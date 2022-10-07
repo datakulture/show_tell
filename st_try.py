@@ -2,8 +2,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
+#import ssl
+#ssl._create_default_https_context = ssl._create_unverified_context
 
 st.title('Uber pickups in NYC')
 
